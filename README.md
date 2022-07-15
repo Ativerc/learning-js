@@ -1,8 +1,12 @@
 # learning-js
 
 Resources:
-MDN: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
-JS: https://javascript.info/
+MDN: https://developer.mozilla.org/en-US/docs/Learn/JavaScript  
+JS: https://javascript.info/   
+
+Odin Project - Foundations: https://www.theodinproject.com/paths/foundations/courses/foundations  
+Odin Project - JS: https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript
+
 
 Notes: Obsidian/Webdev/JavaScript
 
