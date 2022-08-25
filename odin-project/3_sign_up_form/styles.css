@@ -1,0 +1,150 @@
+/* .display-flex {
+    display: flex;
+} */
+
+/* .jc_space-between {
+    justify-content: space-between;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto&display=swap');
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    /* justify-content: ; */
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 4rem;
+    text-transform: 1rem;
+    align-self: flex-start;
+    /* padding: 3rem 0 3rem 0; */
+}
+
+#left-credits {
+    align-self: flex-end;
+}
+
+.credits {
+    color: white;
+    
+}
+
+.backpane {}
+
+.credits a {
+    /* text-decoration: none; */
+    color: inherit;
+}
+
+.right {
+    background-color: #f9fafb;
+    /* width: 50%; */
+    height: 100vh;
+}
+
+.form {
+    background-color: #fff;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-weight:500;
+}
+
+input {
+    height: 1.5rem;
+}
+
+.form-class {
+    padding: 2rem 0 2rem 0;
+}
+
+form > div {
+    /* display: flex; */
+    margin: 1rem 0;
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    /* border: none; */
+    border-radius: .1rem;
+    border: none; /* <-- This thing here */
+    border:solid 1px #aaa;
+    border-radius: .05rem;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+button {
+    align-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .left {
+        background-image: none;
+        height: auto;
+    }
+    #left-credits {
+        display: none;
+    }
+    body {
+        background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .right {
+        /* Flex */
+        display: flex;
+        flex-direction: column;
+        /* Dimensions */
+        width: 80%;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+
+    /* form {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+}
