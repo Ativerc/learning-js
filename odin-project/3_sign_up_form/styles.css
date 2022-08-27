@@ -23,8 +23,9 @@
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 1.5rem;
-    justify-content: space-evenly;
+    /* padding: 1.5rem; */
+    justify-content: space-between;
+    width: 40vw;
 }
 
 .logo {
@@ -33,17 +34,20 @@
     color: white;
     font-size: 4rem;
     text-transform: 1rem;
-    align-self: flex-start;
+    text-align: center;
+    padding-top: 10rem;
+    /* align-self: center; */
     /* padding: 3rem 0 3rem 0; */
 }
 
 #left-credits {
-    align-self: flex-end;
+
 }
 
 .credits {
     color: white;
-    
+    display: inline-block;
+    text-align: center;
 }
 
 .backpane {}
