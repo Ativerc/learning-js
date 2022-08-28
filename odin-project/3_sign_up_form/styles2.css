@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto&display=swap');
+
+/* Global */
+.center-text {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Global CSS */
+
+body {
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 60%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.credits, .credits a {
+    color: white;
+}
+
+/* Logo */
+#logo-img {
+    max-height: 6rem;
+}
+
+#logo-name {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Hero Section */
+
+#hero-credits {
+    display: none;
+}
+
+/* Form Section */
+
+.form-section {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 1.2rem;
+}
+
+
+.input-section {
+    padding: 2rem 0 0 0;
+}
+
+form {
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+form > div {
+    margin: 1rem auto;
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+input {
+    border-radius: .1rem;
+    /* border: none; */
+    border: solid 1px #444;
+    font-size: 1.2rem;
+    height: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+button{
+    display: block;
+    /* margin: 0 auto; */
+    background-color: #2a5914;
+    color: white;
+
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+.login-msg {
+    font-size: 0.9rem;
+    padding: 2rem 0 0 0;
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: none;
+    }
+
+    .container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: initial;
+    }
+
+    .hero-section {
+        background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #hero-credits {
+        display: initial;
+    }
+
+    .form-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 4rem;
+    }
+    
+}

@@ -5,36 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page | OdinProject</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles2.css">
+    <link rel="shortcut icon" href="./Greek_Roman_Laurel_wreath_with_branches_vector.svg" type="image/x-icon">
 </head>
 <body>
-    <div class="container display-flex jc_space-between">
-        <div class="left">
-            <div class="logo">demeter</div>
-            <div id="left-credits" class="credits">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <div class="container">
+        <div class="hero-section">
+            <div id="logo" class="center-text">
+                <img src="./Greek_Roman_Laurel_wreath_with_branches_vector.svg" alt="" id="logo-img" srcset="">
+                <p id="logo-name">flutter</p>
+            </div>
+            <div id="hero-credits" class="credits center-text">
+                <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
             </div>
         </div>
-        <div class="right">
-            <div class="top_msg">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore suscipit et voluptates error facere expedita quam nihil, voluptatum omnis voluptatibus pariatur odio a impedit non delectus fuga vitae natus eius!</p>
-                <p>Sign up and have fun!</p>
+        <div class="form-section">
+            <div class="header">
+                <p class="center-text">Lorem ipsum dolor sit amet. lorem loram lorom lorom lorom</p>
             </div>
-            <div class="form-class">
-                <form action="">
+            <div class="input-section">
+                <p>Sign up and have fun!</p>
+                <form action="" id="su-form">
                     <div class="form-control">
                         <label for="fname">first name</label>
-                        <input type="text" name="sign-up" id="fname">
+                        <input type="text" name="sign-up" id="fname" autocomplete="off">
                     </div>
-                    <div class="form-control"><label for="lname">last name</label><input id="lname" type="text"></div>
-                    <div class="form-control"><label for="email">email</label><input id="email" type="email"></div>
-                    <div class="form-control"><label for="phone">phone number</label><input type="tel"></div>
+                    <div class="form-control">
+                        <label for="lname">last name</label><input id="lname" type="text" autocomplete="off">
+                    </div>
+                    <div class="form-control">
+                        <label for="email">email</label><input id="email" type="email" autocomplete="off">
+                    </div>
+                    <div class="form-control"><label for="phone">phone number</label><input type="tel" autocomplete="off"></div>
                     <div class="form-control"><label for="password">password</label><input type="password"></div>
                     <div class="form-control"><label for="confirm_pass">confirm password</label><input type="password"></div>
-                    <button type="submit">Create Account</button>
                 </form>
             </div>
-            <div id="right-credits" class="credits">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            <div class="submit-section">
+                <button type="submit" form="su-form">Create Account</button>
+                <p class="login-msg">Already have an account? <a href="#">Log In</a></p>
             </div>
+        </div>
+        <div id="form-credits" class="credits center-text">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com">Unsplash</a>
         </div>
     </div>
 </body>
